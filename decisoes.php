@@ -1,10 +1,10 @@
 <?php
 
-$idade=21;
-$nome='Vinicius'
+$idade=11;
+$nome='Vinicius';
 
 
-echo "Você só pode entrar se maior de 18 anos \n" . PHP_EOL;
+echo "Você só pode entrar se maior de 18 anos" . PHP_EOL;
 
 if ($idade == 18 || $idade >18){ // pode usar || ou OR
 
@@ -14,7 +14,7 @@ if ($idade == 18 || $idade >18){ // pode usar || ou OR
 
 } else {
 
-	echo "Você não pode entrar...".
+	echo "Você não pode entrar...". PHP_EOL;
 }
 
 
@@ -29,5 +29,5 @@ if ($idade >= 18 and $nome == 'Vinicius'){
 
 } else {
 
-	echo "Você não pode entrar...".
+	echo "Você não pode entrar..." . PHP_EOL;
 }
