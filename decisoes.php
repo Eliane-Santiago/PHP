@@ -1,6 +1,6 @@
 <?php
 
-$idade=11;
+$idade=15;
 $nome='Vinicius';
 
 
@@ -31,3 +31,17 @@ if ($idade >= 18 and $nome == 'Vinicius'){
 
 	echo "Você não pode entrar..." . PHP_EOL;
 }
+
+
+echo "Bay..." . PHP_EOL;
+
+
+/*
+
+PRECEDÊNCIA 
+
+1°) && / AND (Booleanos)
+2°) || / OR (Booleanos)
+3°) <, > ,<= ,>= ,== , != (Operadores de Comaparação -> ORDEM DA ESQUERTA PARA DIREITA)
+
+*/
