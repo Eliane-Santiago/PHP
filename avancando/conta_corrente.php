@@ -18,13 +18,14 @@ $conta3 = ['titular' => 'Amanda',
 
 
 //Array multidimencional -> serve para agrupar os array associativos
+
 $contasCorrentes = [$conta1, $conta2, $conta3];
 
 
 
 
 for ($i=0; $i < count($contasCorrentes); $i++){
-	echo $contasCorrentes[$i]['titular'] .PHP_EOL;
+	echo $contasCorrentes[$i]['titular'] .' '.$contasCorrentes[$i]['saldo'] .PHP_EOL;
 }
 
 // count($contasCorrentes) - função para retornar o tamanho do array
