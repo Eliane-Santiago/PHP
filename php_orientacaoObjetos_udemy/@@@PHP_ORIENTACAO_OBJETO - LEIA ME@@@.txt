@@ -1,0 +1,13 @@
+>>> Conceitos 
+- Entidade: É a classe
+
+ x = new Produto() // Criação do objeto = instanciando o objeto X
+ 
+ x -> Identidade
+ Construtor -> Produto() 
+
+- Identidade: É a identificalção do objeto ou seja a variável do objeto
+- Construtor: É uma função que cria objeto 
+- Instância: Já é o objeto criado
+ 
+ 
