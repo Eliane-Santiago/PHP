@@ -5,10 +5,14 @@ class Carro extends Veiculo{
     
     public $tetoSolar = true;
 
-    //Metodo Construtor
+    //Metodo Construtor - Usando quando queremos criar os atributos com valores dinâmicos
     function __construct($placa, $cor){
         $this->placa = $placa;
         $this->cor = $cor;
+
+        /*
+        $carroGol = new carro($placa, $cor); //  $carroGol = new carro('YUT5896', 'Verde');
+        */
     }
     
 
@@ -39,6 +43,8 @@ class Moto extends Veiculo{
 }
 
 //Classe Pai
+//SEM MÉTODO SET E GET 
+//SEM MÉTODO CONSTRUTOR
 class Veiculo{
     public $placa = null;
     public $cor = null;
@@ -56,9 +62,19 @@ class Veiculo{
 
 }
 
-//Criando o objeto
+//CRIANDO E CHAMANDO A FUNÇÃO DAS CLASSES FILHA CARRO E MOTO
+// COM MÉTODO CONSTRUTOR
 $carro = new Carro('PUI2356','Cinza');
 $moto = new Moto('JIF5669', 'Azul');
+
+
+//CRIANDO E CHAMANDO A FUNÇÃO PAI
+//SEM MÉTODO SET E GET 
+//SEM MÉTODO CONSTRUTOR 
+$veiculo = new Veiculo();
+$veiculo -> placa = "HGJ2546";
+$veiculo -> cor = "Branco";
+
 
 
 // Só para visualizar o objeto

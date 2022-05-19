@@ -19,6 +19,7 @@
 			return "A funcionário(a) $this->nome possui $this->telefone  e a quantidade de $this->numFilhos filhos.";
 		}
 
+		//SUBROTINA - É UMA FUNÇÃO QUE NÃO RETORNA NADA
 		function modificarNumFilho($numFilhos){
 			//Não precisa retornar nada pois vai afetar um valor
 

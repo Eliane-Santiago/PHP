@@ -2,6 +2,8 @@
 
 //Classe Filhas
 class Carro{
+
+    //Atributos - Valores fixos
     public $placa = 'ABC1234';
     public $cor = 'Branco';
     public $tetoSolar = true;
